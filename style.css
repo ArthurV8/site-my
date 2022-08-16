@@ -1,5 +1,7 @@
 h1 {
-    color:rgb(235, 235, 235)
+    color:rgb(235, 235, 235);
+    margin-top: 50px; 
+    margin-left: 50px;
 }
 
 h2 {
@@ -13,6 +15,14 @@ body {
     background-color: rgb(67, 66, 66);
 }
 
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
 .menuDeCima {
     color: blue;
     background-color: rgba(35, 34, 34, 0.534);
@@ -21,7 +31,11 @@ body {
 }
 
 .links {
-    color: rgba(161, 31, 194, 0.36)
+    margin: 30px;
+}
+
+.cadaLink {
+    margin: 20px;
 }
 
 .projeto{
@@ -30,26 +44,78 @@ body {
     justify-content: space-evenly;
 }
 
+.jogo1 h3{
+    color:rgb(66, 232, 224);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.jogo:hover h3{opacity:1;}
+
+
+.jogo:hover img{opacity:0.33;}
 .jogo1{
-    color:rgb(66, 232, 224, 0.93)
+    position:relative;
 }
 
+.jogo2 h3{
+    color:rgba(5, 134, 37);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
 .jogo2{
-    color:rgba(4, 80, 23, 0.93)
+    position:relative;
 }
 
+.jogo3 h3{
+    color:rgba(230, 174, 22);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
 .jogo3{
-    color:rgba(230, 174, 22, 0.8)
+    position:relative;
 }
 
+.jogo4 h3{
+    color:rgba(255, 128, 0);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
 .jogo4{
-    color:rgba(255, 128, 0, 0.97)
+    position:relative;
 }
 
+.jogo5 h3{
+    color:rgba(255, 0, 0, 0.927);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
 .jogo5{
-    color:rgba(39, 6, 116, 0.621)
+    position:relative;
 }
 
+.jogo6 h3{
+    color:rgb(158, 45, 199);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
 .jogo6{
-    color:rgba(154, 10, 22, 0.736)
+    position:relative;
 }
